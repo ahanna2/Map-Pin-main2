@@ -1,0 +1,89 @@
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+.logo {
+  color: lightblue;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.loginTitle {
+  color: slateblue;
+  font-size: 24px;
+}
+.loginBtn {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: lightblue;
+}
+
+.failure{
+  text-align: center;
+  color: red;
+  font-size: 12px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 0px 3px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.sendloginButton {
+  margin-top: 30px;
+  font-size: 18px;
+  border: none;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: slateblue;
+  cursor: pointer;
+}
+
+
+.failure {
+  font-size: 14px;
+  color: crimson;
+  margin-top: 10px;
+}
+
+.loginCancel {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: slateblue;
+  cursor: pointer;
+}

@@ -1,0 +1,152 @@
+.app {
+  position: relative;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Lable {
+  width: max-content;
+  color: tomato;
+  font-size: 13px;
+  border-bottom: 0.5px solid tomato;
+  margin: 3px 0px;
+}
+.Place{
+  font-weight: bold;
+}
+.desc {
+  font-size: 14px;
+}
+
+.star {
+  color: gold;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+.mapboxgl-popup-close-button{
+padding: 1%;
+font-size: large;
+}
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline-style: none;
+}
+
+form{
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input, textarea{
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input ::placeholder, textarea ::placeholder{
+  font-size: 12px;
+  color: rgb(161, 159, 159);
+}
+
+.button{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.logout{
+  background-color: tomato;
+}
+
+.login{
+  background-color: rgb(12, 184, 40);
+  margin-right: 10px;
+}
+
+.register{
+  background-color: rgb(42, 71, 236);
+}
+
+
+.submitButton{
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.buttons, .logout{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.createButton {
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: crimson;
+  padding: 7px 0px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.loginButton {
+  margin-top: 10px;
+  margin-right: 15px;
+  width: 100px;
+  border: none;
+  padding: 7px;
+  font-size: 16px;
+  color: white;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.registerButton {
+  margin-top: 10px;
+  margin-right: 15px;
+  width: 100px;
+  border: none;
+  padding: 7px;
+  font-size: 16px;
+  color: white;
+  background-color: slateblue;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.logoutButton {
+  margin-top: 10px;
+  margin-right: 15px;
+  width: 100px;
+  border: none;
+  padding: 7px;
+  font-size: 16px;
+  color: white;
+  background-color: crimson;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
